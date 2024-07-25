@@ -1,0 +1,225 @@
+version: "3.1"
+
+intents:
+  - greeting
+  - goodbye
+  - creator
+  - name
+  - hours
+  - number
+  - course
+  - fees
+  - location
+  - hostel
+  - event
+  - document
+  - floors
+  - syllabus
+  - library
+  - infrastructure
+  - canteen
+  - menu
+  - placement
+  - ithod
+  - civilhod
+  - mechhod
+  - Vice_Chancellor
+  - sem
+  - admission
+  - scholarship
+  - facilities
+  - college_intake
+  - uniform
+  - committee
+  - random
+  - swear
+  - vacation
+  - sports
+  - salutation
+  - task
+  - ragging
+  - hod
+  - transport
+  - metro
+
+responses:
+
+  utter_greet:
+    - text: "Hello!"
+    - text: "Good to see you again!"
+    - text: "Hi there, how can I help?"
+
+  utter_goodbye:
+    - text: "Sad to see you go :("
+    - text: "Talk to you later"
+    - text: "Goodbye!"
+    - text: "Come back soon"
+
+  utter_creator_info:
+  - text: "ANNA UNV developed me."
+  - text: "I was developed by students."
+  - text: "Faculty and student team developed me in CEG."
+
+  utter_bot_name:
+  - text: "You can call me ANNA."
+  - text: "I'm ANNA."
+  - text: "I'm ANNA Chatbot."
+
+  utter_college_hours:
+  - text: "College is open 9am-5pm Monday-Friday!"
+
+  utter_contact_info:
+  - text: "You can contact at +91-44-33333333"
+
+  utter_courses_info:
+  - text: "CEG offers CSE, Information Technology, Civil Engineering and Mechanical Engineering."
+
+  utter_fee_info:
+  - text: "For Fee detail visit <a target=\"_blank\" href=\"http://www.annauniv.edu/\"> here</a>"
+
+  utter_location_info:
+  - text: "CEG is located in Guindy, Chennai."
+
+  utter_hostel_info:
+  - text: "CEG provides hostel facilities."
+
+  utter_events_info:
+  - text: "proGECtion, Sports Week, Conference and various other events are conducted in the college. For more information, you can visit the college website <a target=\"_blank\" href=\"http://www.annauniv.edu/\">here</a>."
+
+  utter_document_info:
+  - text: "To know more about documents required for admission, visit <a target=\"_blank\" href=\"http://annauniv.edu\">here</a>."
+
+
+    
+  utter_floors_info:
+  - text: "Each department has a separate block with more than three floors."
+
+  utter_syllabus_info:
+  - text: "To know about syllabus and timetable visit <a target=\"_blank\" href=\"http://www.annauniv.edu/\">here</a>."
+
+  utter_library_info:
+  - text: "There is one separate library block."
+
+  utter_infrastructure_info:
+  - text: "CEG has excellent infrastructure. Campus is clean. Good IT Labs with good speed of internet connection."
+
+  utter_canteen_info:
+  - text: "CEG has a canteen with a variety of food available."
+
+  utter_menu_info:
+  - text: "We serve Bread Pakoda, Chowmin, Thaali, Samosa, Dal Rice, and many more on the menu."
+
+  utter_placement_info:
+  - text: "To know about placement visit <a target=\"_blank\" href=\"http://www.annauniv.edu/\">here</a>."
+
+  utter_ithod_info:
+  - text: "Dr. P is the IT HOD who is available on the Ground floor."
+
+  utter_civilhod_info:
+  - text: "Dr. H is the Civil HOD who is available on the Ground floor."
+
+  utter_mechhod_info:
+  - text: "Dr. M is the Mechanical HOD who is available on the Ground floor."
+
+  utter_vc_info:
+  - text: "Prof. [Vice Chancellor's Name] is available on the Ground floor."
+
+  utter_sem_info:
+  - text: "Here is the academic calendar <a target=\"_blank\" href=\"http://www.annauniv.edu\">website</a>."
+
+  utter_admission_info:
+  - text: "Application can also be submitted online through the University's <a target=\"_blank\" href=\"http://www.annauniv.edu\">website</a>"
+
+  utter_scholarship:
+  - text: "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"http://www.annauniv.edu\">here</a>"
+
+  utter_facilities_info:
+  - text: "CBPGEC provides fully AC Lab with internet connection, smart classroom, Auditorium, library, canteen."
+
+  utter_college_intake_info:
+  - text: "For IT, Civil, and Mechanical branches, it's 60 students per branch."
+
+  utter_uniform_info:
+  - text: "CBPGEC does not have a uniform."
+
+  utter_committee_info:
+  - text: "There are various committees in college. You can see them at <a target=\"_blank\" href=\"http://www.annauniv.edu\">here</a>."
+
+  utter_random:
+  - text: "I am not program for this, please ask appropriate query"
+
+  utter_swear:
+  - text: "please use appropriate language"
+  - text: "Maintaining decency would be appreciated"
+
+  utter_vacation_info:
+  - text: "Please refer to the academic calendar <a target=\"_blank\" href=\"http://www.annauniv.edu\">here</a>."
+
+  utter_sports:
+  - text: "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=\"http://www.annauniv.edu\">here</a>"
+
+  utter_salutation_info:
+  - text: "I am glad I helped you. Welcome! Anything else I can assist you with?"
+
+  utter_task_info:
+  - text: "I can answer low-intermediate questions regarding college. You can ask me questions regarding college, and I will try to answer them."
+
+  utter_ragging_info:
+  - text: "We are proud to tell you that our college provides a ragging-free environment, and we have strict rules against ragging."
+
+  utter_hod_info:
+  - text: "HODs differ for each branch, please be more specific like: (HOD it)."
+
+  utter_transport_info:
+  - text: "Buses 47A, 21G, 23c. For more information, visit [transportation page](http://www.annauniv.edu/transport)."
+
+  utter_metro_info:
+  - text: "Nandanam and Guindy metro stations are nearby."
+
+
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_creator_info
+- utter_bot_name
+- utter_college_hours
+- utter_contact_info
+- utter_courses_info
+- utter_fee_info
+- utter_location_info
+- utter_hostel_info
+- utter_events_info
+- utter_document_info
+- utter_floors_info
+- utter_syllabus_info
+- utter_library_info
+- utter_infrastructure_info
+- utter_canteen_info
+- utter_menu_info
+- utter_placement_info
+- utter_ithod_info
+- utter_civilhod_info
+- utter_mechhod_info
+- utter_vc_info
+- utter_sem_info
+- utter_admission_info
+- utter_scholarship
+- utter_facilities_info
+- utter_college_intake_info
+- utter_uniform_info
+- utter_committee_info
+- utter_random
+- utter_swear
+- utter_vacation_info
+- utter_sports
+- utter_salutation_info
+- utter_task_info
+- utter_ragging_info
+- utter_hod_info
+- utter_transport_info
+- utter_metro_info
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

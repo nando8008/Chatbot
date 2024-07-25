@@ -1,0 +1,205 @@
+version: "3.1"
+
+stories:
+
+- story: Greeting
+  steps:
+  - intent: greeting
+  - action: utter_greet
+
+- story: Goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Creator
+  steps:
+  - intent: creator
+  - action: utter_creator_info
+
+- story: Name
+  steps:
+  - intent: name
+  - action: utter_bot_name
+
+- story: College Hours
+  steps:
+  - intent: hours
+  - action: utter_college_hours
+
+- story: Contact Number
+  steps:
+  - intent: number
+  - action: utter_contact_info
+
+- story: Courses Offered
+  steps:
+  - intent: course
+  - action: utter_courses_info
+
+- story: Fees Information
+  steps:
+  - intent: fees
+  - action: utter_fee_info
+
+- story: College Location
+  steps:
+  - intent: location
+  - action: utter_location_info
+
+- story: Hostel Facility
+  steps:
+  - intent: hostel
+  - action: utter_hostel_info
+
+- story: Events
+  steps:
+  - intent: event
+  - action: utter_events_info
+
+- story: Admission Documents
+  steps:
+  - intent: document
+  - action: utter_document_info
+
+- story: Campus Floors
+  steps:
+  - intent: floors
+  - action: utter_floors_info
+
+- story: Syllabus
+  steps:
+  - intent: syllabus
+  - action: utter_syllabus_info
+
+- story: Library Facilities
+  steps:
+  - intent: library
+  - action: utter_library_info
+
+- story: Infrastructure
+  steps:
+  - intent: infrastructure
+  - action: utter_infrastructure_info
+
+- story: Canteen Facilities
+  steps:
+  - intent: canteen
+  - action: utter_canteen_info
+
+- story: Menu
+  steps:
+  - intent: menu
+  - action: utter_menu_info
+
+- story: Placement
+  steps:
+  - intent: placement
+  - action: utter_placement_info
+
+- story: IT HOD
+  steps:
+  - intent: ithod
+  - action: utter_ithod_info
+
+- story: Civil HOD
+  steps:
+  - intent: civilhod
+  - action: utter_civilhod_info
+
+- story: Mechanical HOD
+  steps:
+  - intent: mechhod
+  - action: utter_mechhod_info
+
+- story: Vice Chancellor
+  steps:
+  - intent: Vice_Chancellor
+  - action: utter_vc_info
+
+- story: Semester Exams
+  steps:
+  - intent: sem
+  - action: utter_sem_info
+
+- story: Admission Process
+  steps:
+  - intent: admission
+  - action: utter_admission_info
+
+
+- story: Scholarship inquiry
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
+- story: College Facilities
+  steps:
+  - intent: facilities
+  - action: utter_facilities_info
+
+- story: College Intake
+  steps:
+  - intent: college_intake
+  - action: utter_college_intake_info
+
+- story: Uniform Policy
+  steps:
+  - intent: uniform
+  - action: utter_uniform_info
+
+- story: Committees
+  steps:
+  - intent: committee
+  - action: utter_committee_info
+
+
+- story: Random inquiry
+  steps:
+  - intent: random
+  - action: utter_random
+
+- story: Swear inquiry
+  steps:
+  - intent: swear
+  - action: utter_swear
+
+- story: Vacation Information
+  steps:
+  - intent: vacation
+  - action: utter_vacation_info
+
+- story: Sports inquiry
+  steps:
+  - intent: sports
+  - action: utter_sports
+
+- story: Salutation Response
+  steps:
+  - intent: salutation
+  - action: utter_salutation_info
+
+- story: Task Information
+  steps:
+  - intent: task
+  - action: utter_task_info
+
+- story: Ragging Policy
+  steps:
+  - intent: ragging
+  - action: utter_ragging_info
+
+- story: HOD Information
+  steps:
+  - intent: hod
+  - action: utter_hod_info
+
+- story: Transportation Information
+  steps:
+  - intent: transport
+  - action: utter_transport_info
+
+- story: Metro Station Information
+  steps:
+  - intent: metro
+  - action: utter_metro_info
